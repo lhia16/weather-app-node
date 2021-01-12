@@ -1,0 +1,39 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 12px;
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    background-attachment: fixed;
+   
+  }
+
+  li {
+    display: inline;
+    color: white;
+   
+}
+
+a:visited {
+    color: white
+}
+
+a:hover {
+    color: rgb(200, 199, 199);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+li a {
+    padding: 10px;
+    
+}

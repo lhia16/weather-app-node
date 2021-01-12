@@ -1,0 +1,123 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 12px;
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    background-attachment: fixed;
+   
+  }
+  
+.main-container {
+        margin: auto;
+        width: 100%;
+        /* border: 10px solid #73AD21; */
+        padding: 10px;
+        text-align: center;
+        height: 100%;
+
+}
+
+.form {
+    margin: auto;
+    width: 60%;
+    /* border: 3px solid #73AD21; */
+    padding: 10px;
+
+
+}
+
+h1 {
+    font-size: 90px;
+    margin: auto;
+    width: 90%;
+    /* border: 3px solid #73AD21; */
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: xx-large;
+    margin: auto;
+    width: 90%;
+    /* border: 10px solid #73AD21; */
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    /* margin: auto; */
+    width: 19%;
+    /* border: 3px solid #73AD21; */
+    /* padding: 10px; */
+    text-align: center;
+}
+
+input {
+    text-align: left;
+    margin-left: 0;
+    font-size: xx-large;
+    margin-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+button {
+    margin-top: 2px;
+    border-radius: 12px;
+    border: 2px;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    background-color: rgb(12, 43, 136);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 6px;
+    outline: none;
+    margin-top: 15px;
+}
+  
+button:hover {
+    background-color: rgb(11, 35, 107);
+
+}
+/* 
+nav {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0px solid #73AD21;
+    padding-bottom: 0px;
+    text-align: center;
+    display: flex;
+
+    
+} */
+
+li {
+    display: inline;
+    color: white;
+   
+}
+
+a:visited {
+    color: white
+}
+
+a:hover {
+    color: rgb(200, 199, 199);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+li a {
+    padding: 10px;
+    
+}
+

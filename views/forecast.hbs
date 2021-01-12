@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+<body>
+    {{>Nav}}
+     <main class="main-container">
+        <h1>7 Day Forecasts</h1>
+        <h2>Please enter a city and country code: </h2>
+
+        <div class="container">
+        <form class="form" action="/forecast" method="POST">
+            <input required type="text" name="city" style="text-transform:capitalize"  /><br /> 
+            <input required type="text" name="countryCode" style="text-transform:uppercase" /><br />
+            <button type="submit">Submit</button>
+        </form>
+        </div>
+        {{!-- <img id="myDiv" src="http://openweathermap.org/img/wn/{{imageIcon}}@2x.png"/>
+        <h2>{{forecast}} {{descript}}</h2> --}}
+    
+    </main>
+</body>
+</html>
