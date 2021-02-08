@@ -121,3 +121,20 @@ li a {
     
 }
 
+@media screen and (max-width: 800px) {
+    .container {
+        text-align: center;
+    }
+    input {
+        font-size: medium;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    button {
+        font-size: 18px;
+        
+    }
+  }

@@ -9,10 +9,10 @@
 </head>
 <body>
     {{>Nav}}
-    <h1>The weather forecast for <span id='city'>{{city}}</span> <span id='countryCode'>{{country}}</span>:</h1>
-    <ul>
+    <h1>7 day forecast for <span id='city'>{{city}}</span> <span id='countryCode'>{{country}}</span></h1>
+    <ul class="weather-box">
         {{#each weatherObject}}
-        <li>
+        <li class="weather">
             <p>{{this.day}}</p>
             <p>Average temp: {{this.temp}} °C</p>
             <p>{{this.description}}</p>
